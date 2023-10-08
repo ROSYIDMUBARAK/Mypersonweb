@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rosyid Mubarak</title>
+    <!-- cdn fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header ----------------------------------------------------------->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><span>Rosyid</a>
+        </div>
+        <ul class="navlist">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="Tutorial/tutorial.html">Tutorial</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <!-- home ------------------------------------------------------------->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Perkenalkan! Saya Rosyid Mubarak</h1>
+            <p>Halo teman - teman saya adalah seorang mahasiswa yang bersemangat di jurusan Informatika di Universitas
+                Muhammadiyah Magelang. Saya lahir dan besar di Magelang, Jawa Tengah. Saya memiliki minat yang kuat
+                dalam teknologi dan komputer sejak dulu, dan itulah yang mendorong saya untuk memilih jurusan
+                Informatika.</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>mubarakrosyid23@gmail.com</span>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/ROSYIDMUBARAK" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/rosyidmubarak57/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rosyid-mubarak-7394ba1b5/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="https://ik.imagekit.io/3m3b7bruh/IMG_1401.JPG?updatedAt=1696772350833" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- about ------------------------------------------------------------>
+    <section id="about" class="about">
+        <div class="img-about">
+            <img src="https://ik.imagekit.io/3m3b7bruh/kom.jpeg?updatedAt=1696774276278"
+                alt="web-dev">
+        </div>
+        <div class="text-about">
+            <h2>About Me</h2>
+            <p> Nama saya Rosyid Mubarak, saya adalah seorang mahasiswa semester 7 jurusan Teknik Informatika di
+                Universitas Muhammadiyah
+                Magelang. Sebagai mahasiswa semester 7, saya mungkin telah mengikuti berbagai mata kuliah dan memperoleh
+                pengetahuan yang mendalam dalam bidang Teknik Informatika. Pada tahap ini, saya mungkin juga sedang
+                mempersiapkan diri untuk menyelesaikan tugas akhir atau skripsi saya, yang merupakan salah satu langkah
+                penting dalam perjalanan pendidikan saya.
+
+                Selain itu, sebagai mahasiswa, saya mungkin juga terlibat dalam kegiatan ekstrakurikuler, organisasi
+                mahasiswa, atau proyek-proyek penelitian dan pengembangan di kampus saya. Semua pengalaman ini dapat
+                membantu saya mengembangkan keterampilan dan wawasan yang lebih dalam dalam bidang Teknik Informatika.
+
+                Selain itu, penting untuk tetap fokus pada tujuan akademis saya, terus belajar, dan mencari peluang
+                untuk mengembangkan diri lebih lanjut, baik dalam hal pengembangan keterampilan teknis maupun
+                kepemimpinan.</p>
+        </div>
+    </section>
+
+    <!-- skills ----------------------------------------------------------->
+    <section id="skills" class="skills">
+        <h2 class="text-center">My Skills</h2>
+        <div class="container-skills">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="bar">
+                    <div class="progress" data-percent="80%">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="bar">
+                    <div class="progress" data-percent="80%">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar">
+                    <div class="progress" data-percent="75%">75%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Node Js</span>
+                <div class="bar">
+                    <div class="progress" data-percent="70%">70%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>DBMS</span>
+                <div class="bar">
+                    <div class="progress" data-percent="80%">80%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <form id="contactForm" class="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send</button>
+            </div>
+
+            <div id="successPopup" class="popup">
+                <span>Thank you</span>
+                <p> <br>Your Message has been sent!</p>
+                <button id="closePopup">Close</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer ------------------------------------------------------------>
+    <footer class="footer">
+        <span class="footer-copy">
+            &#169; All Rights Reserved By
+            <a href="#">Alzi.</a>
+        </span>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
